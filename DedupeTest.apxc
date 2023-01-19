@@ -1,0 +1,12 @@
+@isTest
+public class DedupeeReminderTest {
+    
+    @isTest static void createAccount(){
+        Account acc = new Account();
+        acc.Name    = 'Ivan Marusic';
+        insert acc;
+        
+        
+    }
+
+}
